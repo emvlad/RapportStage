@@ -1,0 +1,6 @@
+CD: current folder/ live-server
+URL: http127.0.0.18080/rapportFinal/objetoriente
+
+
+<p id="débutpage"> </p>
+<a href="#débutpage"><img src="../images/pageReturn.jpg" alt="HomeSoccerGoal" title="Archoral">Retour au haut de la page </a>
