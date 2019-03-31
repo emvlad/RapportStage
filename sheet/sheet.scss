@@ -1,75 +1,109 @@
 /* préparé par Étudiant : Chrisphonte E Vladimir
 ID: 2015-23-208
 Collège Montmorency */
-#countNum{
-  font-size: 20px;
+#countNum {
+  font-size: 3vw;
   color: yellow;
-  font-variant-numeric:tabular-nums
+  font-variant-numeric: tabular-nums;
 }
-#headline{
+#headline {
   color: yellow;
 }
-.img{
-   width: 120px;
-   height:120px;
-
+.img {
+  height: 40vmin;
+  border: 2px solid yellowgreen;
 }
-table,td,th,caption {
-  border: 1px solid white;
+table,
+td,
+th,
+caption {
+  border: 1px;
   border-collapse: collapse;
   text-align: justify;
+}
+th {
+  color: yellow;
+  width: 220px;
+}
+div .intro,
+p {
+  background-color: yellow;
+  color: blue;
+}
+p {
+  text-align: justify;
+}
 
-}
-th{
-   color:yellow;
-   width: 160px;
-}
-div .intro, p{
-background-color: yellow;
-color:blue;
-}
-p{text-align: justify}
-
-div{
-color:white;
-text-align: justify;
-}
-a:link{
-   text-decoration: none;
-}
-a:visited{
+div {
   color: white;
+  text-align: justify;
+  font-size: 1.5vw;
+  width: 1400px;
+  margin: auto;
 }
-a:hover, a:active {
+a:link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:visited {
+  color: yellowgreen;
+}
+a:hover,
+a:active {
   background-color: black;
 }
 
-.backgroundcolor {background-color: purple}
+.backgroundcolor {
+  background-color: purple;
+}
 
-#listLogiciel{color: yellow}
+#listLogiciel {
+  color: yellow;
+}
 
 body {
   background-color: green;
-  color:white;
+  color: white;
 }
-span{color: yellow;}
+span {
+  color: yellow;
+}
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   body {
-    font-size: 150%;
-    zoom: 200%;
-    background-color: blue;
-    color: lightblue;
+    background-color: black;
   }
 }
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 1000px) {
   body {
-    font-size: 250%;
-    zoom: 800%;
     background-color: purple;
-    color:white;
   }
 }
 .hidepacity {
   opacity: 0;
+}
+
+.headpict {
+  animation: chris-rotate infinite 20s linear, pulse 3s ease infinite alternate;
+  height: 40vmin;
+  border-style: groove;
+  float: right;
+}
+
+@keyframes chris-rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    border-color: yellow;
+  }
+  to {
+    border-color: red;
+  }
 }

@@ -4,6 +4,8 @@
 //======== JavaScript - POO - AJAX ====================
 var payHeadline = document.querySelector("#headline");
 var payHeader = document.getElementById("header");
+var payNav = document.querySelector("#navheader");
+
 //constructor function with parameters
 function Persons(fullName, jobTitle, niveauEtud) {
   this.fullName = fullName;
@@ -29,9 +31,14 @@ var pers1 = new Persons(
 //render student info
 payHeadline.innerHTML = pers1.displPers;
 
-//render Home_navbar
-var nav = `   <h1>Rapport Final de Stage</h1>
+//render Home_navbar_index
+var nav = ` <h1>Rapport Final de Stage</h1>
   <h4>Lieu: Intelligence Industrielle</h4>
   <h4>Du 7 janvier au 19 avril 2019</h4>
-  <a href="./">Home</a> | <a href="./component/about.html">About</a>`;
+  `;
 payHeader.innerHTML = nav;
+
+var compnav = ` <a href="./index.html">Home</a> | <a href="./component/about.html"
+>À propos</a> | <a href="./component/contact.html"
+>Profil</a>`;
+payNav.innerHTML = compnav;

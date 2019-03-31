@@ -1,0 +1,8 @@
+============================= Lancez la page html live ===============================
+CD: current folder/ live-server
+URL: http127.0.0.18080/rapportFinal/
+
+============================== Ressources===================================================
+<p id="débutpage"> </p>
+<a href="#débutpage"><img src="../images/pageReturn.jpg" alt="HomeSoccerGoal" title="Archoral">Retour au haut de la page </a>
+========================================================================================
