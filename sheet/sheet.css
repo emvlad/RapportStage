@@ -27,8 +27,9 @@ th {
 }
 div .intro,
 p {
-  background-color: yellow;
+  background-color: rgb(14, 184, 14);
   color: blue;
+  padding-left: 10px;
 }
 p {
   text-align: justify;
@@ -60,7 +61,23 @@ a:active {
 #listLogiciel {
   color: yellow;
 }
-
+#navheader {
+  border: none;
+  height: 30px;
+  width: 1090px;
+  background-color: rgb(57, 5, 139);
+  padding: 10px 0px 0px 10px;
+}
+#navall {
+  border: none;
+  height: 30px;
+  width: 1090px;
+  background-color: rgb(57, 5, 139);
+  padding: 10px 0px 0px 10px;
+}
+#header {
+  border: none;
+}
 body {
   background-color: green;
   color: white;

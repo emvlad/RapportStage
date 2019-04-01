@@ -7,10 +7,10 @@ var payHeader = document.getElementById("header");
 var payNav = document.querySelector("#navheader");
 
 //constructor function with parameters
-function Persons(fullName, jobTitle, niveauEtud) {
+function Persons(fullName, id, college) {
   this.fullName = fullName;
-  this.id = jobTitle;
-  this.college = niveauEtud;
+  this.id = id;
+  this.college = college;
   //this: stand by for all new instance
   this.displPers =
     "<br/>Étudiant : " +
